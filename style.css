@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+.quiz-section {
+  background-color: aqua;
+}
+#quiz {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  & .question {
+    padding: 12px 4px;
+  }
+  & ul {
+    padding: 15px;
+
+    & li {
+      list-style: none;
+      border: 1px solid black;
+      border-radius: 12px;
+      padding: 12px 4px;
+      margin: 12px;
+    }
+  }
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & #submit {
+    padding: 0.5rem;
+    border-radius: 20%;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
